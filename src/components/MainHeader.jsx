@@ -9,7 +9,7 @@ function MainHeader() {
         <HiCode />
         Portfolio - Oskar Villa
       </h1>
-      <p>
+      <nav>
         <a to="" className={classes.button} >
           Projects
         </a>
@@ -22,7 +22,7 @@ function MainHeader() {
         <a to="" className={classes.button} >
           Contact me
         </a>
-      </p>
+      </nav>
     </header>
   );
 }
