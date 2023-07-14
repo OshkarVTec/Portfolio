@@ -5,29 +5,24 @@ a {
 }
 
 .photo{
-   height: 15rem;
-   width: 30rem;
+   aspect-ratio: 14/8;
+   width: 100%;
    border-top-left-radius: 1rem;
    border-top-right-radius: 1rem;
 }
 
 .card{
-
    background-color: #333333;
    display:flex;
-   margin-inline: 1rem;
    border-radius: 1rem;
-   background-repeat: no-repeat;
-   width: 30rem;
    word-break: break-all;
    overflow: wrap;
    justify-content: center;
    text-align: center;
-   margin-top: 2rem;
+   margin-inline: 1rem;
 }
 
 .title{
    color: #F5F5F5;
    word-break: break-all;
-   padding: 1rem;
 }
