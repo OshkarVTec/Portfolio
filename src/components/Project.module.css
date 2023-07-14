@@ -15,8 +15,6 @@ a {
    background-color: #333333;
    display:flex;
    border-radius: 1rem;
-   word-break: break-all;
-   overflow: wrap;
    justify-content: center;
    text-align: center;
    margin-inline: 1rem;
@@ -24,5 +22,5 @@ a {
 
 .title{
    color: #F5F5F5;
-   word-break: break-all;
+   padding: 1rem;
 }

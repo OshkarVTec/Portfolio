@@ -23,29 +23,29 @@ function ProjectList() {
         breakpoint: 1664,
         settings: {
           slidesToShow: 2,
-        }
+        },
       },
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 1,
-        }
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-        }
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-        }
-      }
-    ]
-    
+        },
+      },
+    ],
   };
+
   return (
     <Slider {...settings}>
       {ProjectData.map((project) => (

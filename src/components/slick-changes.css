@@ -4,18 +4,6 @@
   background: black url("./ajax-loader.gif") center center no-repeat;
 }
 
-/* Icons */
-@font-face {
-  font-family: "slick";
-  font-weight: normal;
-  font-style: normal;
-
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/slick.woff") format("woff"),
-    url("./fonts/slick.ttf") format("truetype"),
-    url("./fonts/slick.svg#slick") format("svg");
-}
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -183,7 +171,7 @@
   color: black;
 }
 .slick-slide {
-  height: auto;
+  height: 100%;
 }
 .slick-track {
   display: flex;
@@ -200,3 +188,16 @@
 .slick-slider{
   margin-inline: 1.8rem;
 }
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
+
+.slick-slide > div { height: 100%; }
+
+.slick-slide > div > div { height: 100%; }
