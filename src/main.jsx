@@ -1,18 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import RootLayout from './routes/RootLayout';
-import './index.css';
+import Content from "./routes/Content";
+import RootLayout from "./routes/RootLayout";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <RootLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Content />,
+        children: [
+          {
+            /*             path: "/:postId",
+            element: <ProjectDetails />, */
+          },
+        ],
+      },
+    ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
