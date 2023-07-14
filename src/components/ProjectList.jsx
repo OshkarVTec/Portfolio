@@ -20,25 +20,13 @@ function ProjectList() {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1664,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 480,
+        breakpoint: 800,
         settings: {
           slidesToShow: 1,
         },
