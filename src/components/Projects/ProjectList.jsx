@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./slick-changes.css";
 
 import Project from "./Project.jsx";
-import { ProjectData } from "../data/projects.js";
+import { ProjectData } from "../../data/projects.js";
 
 function ProjectList() {
   var settings = {
