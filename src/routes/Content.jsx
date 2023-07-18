@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 
 import ProjectList from "../components/Projects/ProjectList";
+import SkillList from "../components/Skills/SkillList";
 import classes from "./Content.module.css";
 
 function Content() {
@@ -14,6 +15,7 @@ function Content() {
         </section>
         <section>
           <h2>My skills</h2>
+          <SkillList />
         </section>
       </main>
     </>
