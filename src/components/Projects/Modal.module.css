@@ -9,11 +9,15 @@
 }
 
 .modal {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin: 1rem;
   border: none;
   border-radius: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);;
-  background-color: #333333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #F5F5F5;
   padding: 1rem;
   padding-top: 0;
   overflow: hidden;

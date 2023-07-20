@@ -14,8 +14,10 @@ function ProjectDetails() {
     <Modal>
       <main className={classes.details}>
         <h1 className={classes.title}>{project.title}</h1>
-        <img className={classes.photo} src={project.image} />
-        <p className={classes.text}>{project.body}</p>
+        <div className={classes.imageContainer}>
+          <img className={classes.photo} src={project.image} />u
+        </div>
+        <p className={classes.body}>{project.body}</p>
       </main>
     </Modal>
   );

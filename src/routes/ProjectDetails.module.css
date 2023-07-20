@@ -1,9 +1,23 @@
-.details{
-   background-color: #333333;
+.details {
+
 }
 
-.photo{
-   aspect-ratio: 14/8;
-   width: 50%;
-   border-radius: 1rem;
+.imageContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.photo {
+  aspect-ratio: 14/8;
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.title {
+  color: #333333;
+}
+
+.body {
+  color: #333333;
 }
