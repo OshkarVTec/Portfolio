@@ -1,0 +1,9 @@
+.details{
+   background-color: #333333;
+}
+
+.photo{
+   aspect-ratio: 14/8;
+   width: 50%;
+   border-radius: 1rem;
+}
