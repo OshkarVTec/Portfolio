@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Content from "./routes/Content";
 import RootLayout from "./routes/RootLayout";
+import ProjectDetails from "./routes/ProjectDetails.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -16,8 +17,8 @@ const router = createBrowserRouter([
         element: <Content />,
         children: [
           {
-            /*             path: "/:postId",
-            element: <ProjectDetails />, */
+            path: "project/:projectId",
+            element: <ProjectDetails />,
           },
         ],
       },
