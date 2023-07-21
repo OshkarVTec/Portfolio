@@ -9,11 +9,11 @@ function Content() {
     <>
       <Outlet />
       <main>
-        <section>
+        <section id="Projects">
           <h2>My projects</h2>
           <ProjectList />
         </section>
-        <section>
+        <section id="Skills">
           <h2>My skills</h2>
           <SkillList />
         </section>

@@ -1,4 +1,5 @@
 import { HiCode } from 'react-icons/hi';
+import { Link } from "react-scroll";
 
 import classes from './MainHeader.module.css';
 
@@ -10,18 +11,18 @@ function MainHeader() {
         Portfolio - Oskar Villa
       </h1>
       <nav>
-        <a to="" className={classes.button} >
+        <Link smooth={true} spy={true} to="Projects" offset={-100} className={classes.button} >
           Projects
-        </a>
-        <a to="" className={classes.button} >
+        </Link>
+        <Link smooth={true} spy={true}to="Skills" offset={-100} className={classes.button} >
           Skills
-        </a>
-        <a to="" className={classes.button} >
+        </Link>
+        <Link smooth={true} spy={true} to="" className={classes.button} >
           About me
-        </a>
-        <a to="" className={classes.button} >
+        </Link>
+        <Link smooth spy to="" className={classes.button} >
           Contact me
-        </a>
+        </Link>
       </nav>
     </header>
   );
