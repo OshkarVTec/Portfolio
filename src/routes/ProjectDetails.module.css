@@ -1,14 +1,17 @@
-.details {
-
+.titleContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
-.imageContainer {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.centeredContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo {
+  max-width: 800px;
   aspect-ratio: 14/8;
   width: 80%;
   border-radius: 1rem;
@@ -20,4 +23,16 @@
 
 .body {
   color: #333333;
+}
+
+.tag {
+  color: #333333;
+}
+
+.linkContainer{
+   display: flex;
+}
+
+.link{
+   margin-left: 5rem;
 }
