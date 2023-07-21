@@ -1,5 +1,9 @@
 .header {
   /* padding: 2rem 10%; */
+  position: -webkit-sticky;
+	position: sticky;
+  top: 0.5rem;
+	z-index: 2;
   text-align: center;
   display: flex;
   justify-content: space-between;
