@@ -5,7 +5,7 @@ function About() {
     <>
       <h1 className={classes.title}>Welcome to my portfolio!</h1>
       <p>
-        I'm delighted to present my journey in software and web development, as
+        My name is Oskar Villa, and I'm delighted to present my journey in software and web development, as
         well as embedded systems projects. Currently pursuing a B.S. in Computer
         Science and Technology, I've been captivated by the endless
         possibilities that technology offers.
