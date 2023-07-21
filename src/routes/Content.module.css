@@ -6,3 +6,10 @@ h2 {
 section {
    margin: 1rem;
 }
+
+.about{
+   background-color: #333333;
+   border-radius: 0.5rem;
+   margin: 0.5rem;
+   padding: 0.5rem;
+}

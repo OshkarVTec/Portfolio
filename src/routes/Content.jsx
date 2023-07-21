@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import ProjectList from "../components/Projects/ProjectList";
 import SkillList from "../components/Skills/SkillList";
+import About from "../components/About/About.jsx";
 import classes from "./Content.module.css";
 
 function Content() {
@@ -9,6 +10,9 @@ function Content() {
     <>
       <Outlet />
       <main>
+        <section id="About" className={classes.about}>
+          <About/>
+        </section>
         <section id="Projects">
           <h2>My projects</h2>
           <ProjectList />
