@@ -24,6 +24,7 @@
   gap: 1.5rem;
   align-items: center;
   color: #f5f5f5;
+  font-weight: bold;
 }
 
 .button {
@@ -42,4 +43,10 @@
 .button:hover {
   background-color: #f5f5f5;
   color: #242424;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }
