@@ -1,3 +1,6 @@
+.details{
+   padding: 1rem;
+}
 .titleContainer {
    display: flex;
    flex-direction: row;
@@ -11,7 +14,6 @@
 }
 
 .photo {
-  max-width: 800px;
   aspect-ratio: 14/8;
   width: 80%;
   border-radius: 1rem;
