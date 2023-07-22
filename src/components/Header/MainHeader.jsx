@@ -38,7 +38,13 @@ function MainHeader() {
         >
           Skills
         </Link>
-        <Link smooth spy to="" className={classes.button}>
+        <Link
+          smooth={true}
+          spy={true}
+          to="Contact"
+          offset={-100}
+          className={classes.button}
+        >
           Contact me
         </Link>
       </nav>
