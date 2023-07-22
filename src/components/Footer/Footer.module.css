@@ -1,0 +1,10 @@
+.footer {
+   display: flex;
+   justify-content: space-between;
+  border-radius: 0.5rem;
+  font-family: "Atkinson Hyperlegible", "Atkinson Hyperlegible Placeholder",
+    sans-serif;
+  background-color: #333333;
+  margin-inline: 0.5rem;
+  padding: 0.5rem;
+}
