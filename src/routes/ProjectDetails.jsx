@@ -23,7 +23,7 @@ function ProjectDetails() {
           </div>
         </div>
         <div className={classes.centeredContainer}>
-          <img className={classes.photo} src={project.image} />u
+          <img className={classes.photo} src={project.image} />
         </div>
         <p className={classes.body}>{project.body}</p>
         <h2>Tags</h2>
