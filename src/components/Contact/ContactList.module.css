@@ -1,9 +1,9 @@
-ul{
+.list{
    display:flex;
    justify-content: space-around;
 }
 
-li{
+.list li{
    display: flex;
    flex-direction: column;
    align-items: center;
