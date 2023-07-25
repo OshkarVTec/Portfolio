@@ -39,3 +39,11 @@
 .link{
    margin-left: 5rem;
 }
+
+.btn{
+  color: #F5F5F5;
+  background-color: #333333;
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
