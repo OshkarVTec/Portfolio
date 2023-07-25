@@ -12,7 +12,7 @@ function Content() {
       <Outlet />
       <main>
         <section id="About" className={classes.about}>
-          <About/>
+          <About />
         </section>
         <section id="Projects">
           <h2>My projects</h2>
