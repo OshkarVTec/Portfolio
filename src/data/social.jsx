@@ -5,16 +5,11 @@ export const SocialData = [
   {
     platform: "Github",
     icon: <AiFillGithub size={80} color="#171515"/>,
-    link: "https://github.com/ThantZinPhyo-Slark",
+    link: "https://github.com/OshkarVTec",
   },
   {
     platform: "LinkedIn",
     icon: <AiFillLinkedin size={80} color="#0072b1"/>,
-    link: "https://www.linkedin.com/in/thantzinphyo11/",
-  },
-  {
-    platform: "Gmail",
-    icon: <SiGmail size={80} color="#BB001B"/>,
-    link: "https://twitter.com/ThantZinPhyoSLK",
+    link: "https://www.linkedin.com/in/oskar-adolfo-villa-397000257/",
   },
 ];
