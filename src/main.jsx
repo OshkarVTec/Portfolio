@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Content from "./routes/Content";
 import RootLayout from "./routes/RootLayout";
 import ProjectDetails from "./routes/ProjectDetails.jsx";
+import NotFound from "./components/NotFound/NotFound.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  { path: "*", element: <NotFound /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
