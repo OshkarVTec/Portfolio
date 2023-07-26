@@ -6,9 +6,9 @@ a {
 
 .photo{
    aspect-ratio: 14/8;
-   width: 100%;
-   border-top-left-radius: 1rem;
-   border-top-right-radius: 1rem;
+   width: 90%;
+   border-radius: 1rem;
+   margin: 5%;
 }
 
 .card{
