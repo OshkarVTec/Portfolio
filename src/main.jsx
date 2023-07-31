@@ -10,7 +10,7 @@ import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Portfolio",
     element: <RootLayout />,
     children: [
       {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <Content />,
         children: [
           {
-            path: "project/:projectId",
+            path: "/project/:projectId",
             element: <ProjectDetails />,
           },
         ],
