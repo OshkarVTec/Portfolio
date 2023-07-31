@@ -18,14 +18,14 @@ const router = createBrowserRouter([
         element: <Content />,
         children: [
           {
-            path: "/project/:projectId",
+            path: "Portfolio/project/:projectId",
             element: <ProjectDetails />,
           },
         ],
       },
     ],
   },
-  { path: "*", element: <NotFound /> },
+  { path: "Portfolio/*", element: <NotFound /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
