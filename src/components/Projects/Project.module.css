@@ -12,7 +12,7 @@ a {
 }
 
 .card{
-   background-color: #333333;
+   background-color: #8C2F39;
    display:flex;
    border-radius: 1rem;
    justify-content: center;
@@ -21,6 +21,6 @@ a {
 }
 
 .title{
-   color: #F5F5F5;
+   color: #F0E7D8;
    padding: 1rem;
 }

@@ -8,11 +8,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #f5f5f5;
   border-radius: 0.5rem;
   font-family: "Atkinson Hyperlegible", "Atkinson Hyperlegible Placeholder",
     sans-serif;
-  background-color: #333333;
+  background-color: #461220;
   margin-inline: 0.5rem;
   padding: 0.5rem;
 }
@@ -23,7 +22,7 @@
   display: flex;
   gap: 1.5rem;
   align-items: center;
-  color: #f5f5f5;
+  color: #F0E7D8;
   font-weight: bold;
 }
 
@@ -32,7 +31,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  color: #f5f5f5;
+  color: #F0E7D8;
   border: none;
   border-radius: 4px;
   cursor: pointer;

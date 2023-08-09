@@ -2,7 +2,7 @@
    margin: 1rem;
    padding: 1rem;
    border-radius: 8px;
-   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+   box-shadow: 4px 4px 4px 0.2rem #AB9B96;
    animation: animate-in 1s ease-out forwards;
    display: flex;
    flex-direction: column;
