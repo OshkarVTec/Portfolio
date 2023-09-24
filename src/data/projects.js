@@ -45,4 +45,13 @@ export const ProjectData = [
     image:
       "https://raw.githubusercontent.com/OshkarVTec/python-syntax-highlighter/main/Screenshot%20from%202023-07-26%2010-07-25.png?token=GHSAT0AAAAAACE33CC37NSLB3IMYTT6VMVKZGBJB5Q",
   },
+  {
+    id: 6,
+    title: "Fruit Data API Search",
+    body: "A web app where you can search for fruit data and download a csv file. It uses FruityVice API. Built on React and Node.js",
+    tags: ["Node.js", "ReactJS"],
+    github: "https://github.com/OshkarVTec/apiConnectionExcercise",
+    image:
+      "https://raw.githubusercontent.com/OshkarVTec/apiConnectionExcercise/main/example.png",
+  },
 ];
