@@ -54,4 +54,13 @@ export const ProjectData = [
     image:
       "https://raw.githubusercontent.com/OshkarVTec/apiConnectionExcercise/main/example.png",
   },
+  {
+    id: 8,
+    title: "Data Search Web Page ",
+    body: "A web app where you can search for scholarships, aplying filters and using a text search. Built on React using Vite. Deployed on GithubPages.",
+    tags: ["ReactJS"],
+    github: "https://github.com/OshkarVTec/webBecas",
+    image:
+      "https://raw.githubusercontent.com/OshkarVTec/webBecas/main/example.png",
+  },
 ];
