@@ -2,15 +2,17 @@ import {
 	FaReact,
 	FaCss3Alt,
 	FaHtml5,
-	FaJs,
 	FaGitAlt,
 	FaPython,
 	FaNodeJs,
 } from "react-icons/fa";
-import { BiMicrochip } from "react-icons/bi";
+import {
+	BiMicrochip,
+	BiLogoTypescript,
+	BiLogoJavascript,
+} from "react-icons/bi";
 import { TbBrandCpp, TbBrandMysql } from "react-icons/tb";
 import { BsGraphDown } from "react-icons/bs";
-import { SiElixir, SiPhp } from "react-icons/si";
 export const SkillsData = [
 	{
 		name: "ReactJS",
@@ -29,8 +31,12 @@ export const SkillsData = [
 		icon: <BiMicrochip size={80} />,
 	},
 	{
+		name: "TypeScript",
+		icon: <BiLogoTypescript size={80} color="#3178c6" />,
+	},
+	{
 		name: "JavaScript",
-		icon: <FaJs size={80} color="#F0DB4F" />,
+		icon: <BiLogoJavascript size={80} color="#F0DB4F" />,
 	},
 	{
 		name: "HTML5",
@@ -53,14 +59,6 @@ export const SkillsData = [
 		icon: <TbBrandMysql size={80} color="#00758F" />,
 	},
 	{
-		name: "Elixir",
-		icon: <SiElixir size={80} color="#a222ab" />,
-	},
-	{
-		name: "PHP",
-		icon: <SiPhp size={80} color="#474a8a" />,
-	},
-  {
 		name: "Node.js",
 		icon: <FaNodeJs size={80} color="#3c873a" />,
 	},
