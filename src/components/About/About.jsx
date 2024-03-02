@@ -6,22 +6,15 @@ function About() {
 			<h1 className={classes.title}>Welcome to my portfolio!</h1>
 			<div className={classes.text}>
 				<p>
-					My name is Oskar Villa, and I'm delighted to present my journey in
-					software and web development, as well as embedded systems projects.
-					Currently pursuing a B.S. in Computer Science and Technology, I've
-					been captivated by the endless possibilities that technology offers.
+					I am Oskar, a Computer Science student who loves challenges and always
+					gives a 100% effort in my projects.
 				</p>
 				<p>
 					This portfolio showcases my passion for innovation and
-					problem-solving. From crafting elegant code for software applications
-					to designing dynamic websites and engineering efficient solutions for
-					embedded systems, each project reflects my commitment to continuous
-					learning.
+					problem-solving. You will find different projects involving hardware
+					and software, using different technologies and approaches.
 				</p>
-				<p>
-					Thank you for visiting, and let's embrace the boundless potential of
-					technology together.
-				</p>
+				<p>Thank you for visiting, I hope you like my work!</p>
 			</div>
 		</section>
 	);
