@@ -18,8 +18,8 @@ export const ExperienceData = [
 			"TecBytes is a student group in Tec de Monterrey Campus Puebla, which has a web development division. As the leader of the division, my responsibities are:",
 		date: "Since Fall 2023",
 		bullets: [
-			"Led a team of front-end developers, overseeing project management and ensuring timely delivery of high-quality work.",
-			"Contributed to the design and development of multiple projects, focusing on user experience and interface design.",
+			"Lead a team of front-end developers, overseeing project management and ensuring timely delivery of high-quality work.",
+			"Contribute to the design and development of multiple projects, focusing on user experience and interface design.",
 		],
 	},
 ];
