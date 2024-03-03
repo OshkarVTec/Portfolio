@@ -1,0 +1,43 @@
+.container {
+	height: auto;
+	border-radius: 1rem;
+	border-radius: 8px;
+	box-shadow: 4px 4px 4px 0.2rem #ab9b96;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.titleContainer {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.title {
+	font-size: 1.5rem;
+	margin: 0;
+	vertical-align: baseline;
+}
+
+.description {
+	font-size: 1rem;
+	color: #333333;
+}
+
+.name {
+	color: #333333;
+	margin: 0;
+	vertical-align: baseline;
+}
+
+.date {
+	color: #333333;
+	padding: 0;
+	margin: 0;
+	font-style: italic;
+}
+
+.bullets {
+	color: #333333;
+	font-size: 1rem;
+}
