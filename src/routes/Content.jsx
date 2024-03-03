@@ -16,7 +16,7 @@ function Content() {
 					<About />
 				</section>
 				<section id="Experience">
-					<h2>Experience</h2>
+					<h2>My experience</h2>
 					<ExperienceList />
 				</section>
 				<section id="Projects">
