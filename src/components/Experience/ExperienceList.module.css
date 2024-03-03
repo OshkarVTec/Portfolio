@@ -1,7 +1,12 @@
 .list {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	list-style-type: none;
 	padding: 0;
+}
+
+@media (max-width: 800px) {
+	.list {
+		flex-wrap: wrap;
+	}
 }
