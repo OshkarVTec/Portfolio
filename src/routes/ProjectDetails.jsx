@@ -34,10 +34,14 @@ function ProjectDetails() {
 							</li>
 						))}
 					</ul>
-					<h2>Link to project</h2>
-					<a href={project.github} className={classes.link}>
-						<AiFillGithub size="50" />
-					</a>
+					{project.github && (
+						<>
+							<h2>Link to project</h2>
+							<a href={project.github} className={classes.link}>
+								<AiFillGithub size="50" />
+							</a>
+						</>
+					)}
 				</main>
 			</Modal>
 		);
